@@ -53,6 +53,6 @@ int LCD1602(){
   lcd.setCursor(0,0);   //设置显示指针 
   lcd.print(tempe);
   lcd.setCursor(5,0);
-  lcd.print("C");
+  lcd.print("C");     //1602没有对应摄氏度字符┑(￣Д ￣)┍
 }
 
